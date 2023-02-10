@@ -1,0 +1,56 @@
+to create package -npm init
+to install express-npm i express
+to run -node file_name .js
+
+basic steps
+
+1.creating a folder-(bankserver)
+2.create a package-json file(npm init)
+3.create a node module files(npm express)
+4.create index.js file
+5.import express inside index.js
+6.create app using express
+7.set up port number
+8.resolving http requests
+9.install nodemon npm i -g nodemon
+10.http response code 
+    1xx-information
+    2xx-successful
+    3xx-redirection
+    4xx-client error
+    5xx-server error
+11.JWT Token -authentication
+to check login or not
+
+login -------token generate----->client-----req to deposit+token------>server token check?
+
+install JWT -JSONwebtoken
+
+  npm i jsonwebtoken
+  to generate a JWT token -sign()
+
+ 12.Middleware- to verify the token 
+     -It comes in the middle of the request and response
+     -it also provides access to mini functions
+        
+        1.Application-level middleware
+        -For entire application
+
+        2.Router level middleware
+        -to verify the token
+         to valdate the token -verify()
+
+ 13.Database integration
+
+       1)install mongoose- npm i mongoose (for connecting nodejs and mongodb)  
+        2)Db connect via mongose
+        3) create a model using mongoose
+
+ 14) asynchronous function resloving
+
+      1)resolving state -then()
+      2)rejection state -catch()            
+
+15) CORS -Cross orgin resourse sharing 
+     
+      install cors - npm i cors 
